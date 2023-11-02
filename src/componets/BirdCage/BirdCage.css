@@ -1,0 +1,141 @@
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: end;
+    padding-right: 96px;
+    margin-right: 10px;
+}
+.name-List{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.txtCage {
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.select {
+    height: 39px;
+    width: 244px;
+    margin-top: 10px;
+    background-color: #fdfdfd;
+    border-color: #ddd;
+    padding-left: 5px;
+    font-size: 15px;
+    color: '#333333'
+}
+
+.lineCage {
+    height: 3px;
+    width: 30px;
+    position: inherit;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.border {
+    width: 260px;
+    height: 66px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+
+}
+.card {
+    width:281px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #dddddd;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    height: 391px;
+    overflow: hidden;
+    color: black;
+}
+.nameBirdCage{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    height: 10px;
+    margin: 0px;
+}
+
+.img-birdCage{
+    width: 281px;
+    height:281px;
+    transition: 0.6s;
+    overflow: hidden;
+}
+.img-birdCage:hover{
+    transform: scale(1.05);
+}
+.box-birdCage:not(:last-of-type) {
+    margin-bottom: 10px;
+    border-bottom: 0.5px solid rgb(218, 218, 218);  ;
+}
+
+.discount {
+    font-size: 12px;
+    color: #af9e9e;
+    text-decoration: line-through;
+    margin-bottom: 2px;
+}
+
+.price {
+    margin: 0;
+}
+.bottomList{
+    position: fixed;
+    bottom: 0;
+    left: 63.5%;
+    width: 60.5%;
+    height: 145px;
+    transform: translateX(-50%);
+    z-index: 99;
+    background-color: lightblue;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.img-compare{
+    width: 120px;
+    height: 105px;
+    margin-top: 10px;
+    border:1px dashed white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px; 
+}
+.compare-card{
+    border-right: 1px solid white;
+    margin-left: 40px;
+    padding-right: 40px;
+}
+
+.img-addProduct{
+    width: 50px;
+    height: 50px;
+    border:1px dashed white;
+    margin-top: 50px;
+    margin-left: 73px;
+    margin-bottom: 50px;
+}
+.container-fake{
+    margin-right: 20px;
+    border-right: 1px solid white;
+}
+.name-addProduct{
+    margin-left: 80px;
+}
+.closeTxT-compare{
+    color: blue;
+    cursor: pointer;
+}
+.closeTxT-compare:hover{
+    color: rgb(100, 190, 67);
+    cursor: pointer;
+}
